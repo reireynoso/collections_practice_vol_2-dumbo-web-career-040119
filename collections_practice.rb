@@ -41,28 +41,28 @@ def count_elements(array)
   #puts array.length
   existing_names = []
   array.each do |elements|
-    elements[:count] = 0
+    #elements[:count] = 0
     #puts elements[:count]
     #puts elements[:name]
-    #puts elements
-    if existing_names.length == 0
+    puts elements
+    #if existing_names.length == 0
       #elements[:count] += 1
       #elements[:count] = 1
-      existing_names << elements
-      puts existing_names
-      existing_names[:count] = 1
-      puts existing_names
-    else
-      existing_names.each do |exist|
-        if exist[:name] == elements[:name]
-          exist[:count] += 1
-        else 
-          #elements[:count] += 1
-          elements[:count] = 1
-          existing_names << elements
-        end
-      end
-    end
+     # existing_names << elements
+    #  puts existing_names
+     # existing_names[:count] = 1
+    #  puts existing_names
+    #else
+    #  existing_names.each do |exist|
+     #   if exist[:name] == elements[:name]
+    #    exist[:count] += 1
+     #   else 
+    #      #elements[:count] += 1
+     #     elements[:count] = 1
+      #    existing_names << elements
+      #  end
+      #end
+    #end
     
   end
   puts existing_names
