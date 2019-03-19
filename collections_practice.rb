@@ -45,7 +45,7 @@ def count_elements(array)
     #puts elements[:count]
     #puts elements[:name]
     elements.each do |key,val|
-      puts key
+      puts val
     end
     #if existing_names.length == 0
       #elements[:count] += 1
