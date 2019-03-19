@@ -1,3 +1,4 @@
+require "Pry"
 # your code goes here
 def begins_with_r(collection)
   collection.each do |names|
@@ -63,7 +64,7 @@ def find_cool(array)
   array.each do |arr|
     arr.each do |key,value|
       if value == "cool"
-        puts key
+        binding.pry
       end
     end
   end
