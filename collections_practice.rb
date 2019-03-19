@@ -65,7 +65,7 @@ def find_cool(array)
   array.each do |arr|
     arr.each do |key,value|
       if value == "cool"
-        #binding.pry
+        puts key
       end
     end
   end
