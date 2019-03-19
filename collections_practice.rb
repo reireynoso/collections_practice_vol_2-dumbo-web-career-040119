@@ -81,7 +81,7 @@ def organize_schools(schools)
       if organize.has_key?(city) == false
         organize[city] = [key]
       else
-        
+        organize[city] << key
       end
     end
   end
