@@ -43,6 +43,9 @@ def count_elements(array)
   counts = {}
   puts array
   puts array.group_by(&:itself)
+  array.group_by(&:itself).collect do |key,value|
+    puts key
+  end
  
 end
 
