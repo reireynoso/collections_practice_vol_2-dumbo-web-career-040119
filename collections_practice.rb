@@ -61,7 +61,7 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  puts cool
+  #puts cool
   array.each do |arr|
     arr.each do |key,value|
       if value == "cool"
