@@ -51,19 +51,19 @@ end
 def merge_data(keys,data)
   puts keys
   puts data 
-  hash = {}
+  arr = []
   data.each do |array|
     array.each do |key,value|
       keys.each do |array1|
         array1.each do |key1,value1|
           if value1 == key
-            
+            arr << value
           end
         end
       end
     end
   end
-  
+  puts arr
 end
 
 def find_cool
