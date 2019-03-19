@@ -38,15 +38,12 @@ def remove_non_strings(collection)
 end
 
 def count_elements(array)
-  #puts array.length
-  existing_names = []
   counts = {}
   puts array
   puts array.group_by(&:itself)
   array.group_by(&:itself).collect do |key,value|
-    key.merge(count: value.length)
+    puts key
   end
-  
   puts counts
 end
 
