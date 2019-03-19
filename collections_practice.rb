@@ -62,7 +62,7 @@ end
 def find_cool(array)
   array.each do |arr|
     arr.each do |key,value|
-      puts value
+      if value == 
     end
   end
 end
