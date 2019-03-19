@@ -53,7 +53,7 @@ def merge_data(keys,data)
   puts data 
   hash = {}
   data.each do |key,value|
-    puts key
+    puts value
   end
   
 end
