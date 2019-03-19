@@ -58,7 +58,7 @@ def merge_data(keys,data)
         array1.each do |key1,value1|
           if value1 == key
             arr << value
-            arr << key1
+            arr << value1
           end
         end
       end
