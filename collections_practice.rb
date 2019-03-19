@@ -49,7 +49,7 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
-  #puts keys
+  puts keys
   #puts data 
   #rr = []
   #arr1 =[]
