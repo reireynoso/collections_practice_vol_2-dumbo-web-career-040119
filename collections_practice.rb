@@ -76,6 +76,6 @@ end
 def organize_schools(schools)
   #puts schools
   schools.each do |key,value|
-    puts key
+    puts value
   end
 end
