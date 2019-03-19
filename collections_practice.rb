@@ -50,22 +50,10 @@ end
 
 def merge_data(keys,data)
   puts keys
-  #puts data 
-  #rr = []
-  #arr1 =[]
-  #data.each do |array|
-  #  array.each do |key,value|
-  #    keys.each do |array1|
-  #      array1.each do |key1,value1|
-  #        if value1 == key
-  #          arr << value
-  #        end
-  #      end
-  #    end
-  #  end
-  #end
-  #puts arr
-  #puts arr1
+  puts data 
+  
+  
+  
   v1 = data 
   v2 = keys
   v1[0].values.map.with_index do |v,i|
