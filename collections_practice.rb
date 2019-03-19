@@ -49,13 +49,11 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
+  #puts keys
+  #puts data
   k = keys
-  d = data 
-  
-  
-  
-  v1 = data 
-  v2 = keys
+  d = data
+  puts d.values
   d[0].values.map.with_index do |value,index|
     k[index].merge(value)
   end
