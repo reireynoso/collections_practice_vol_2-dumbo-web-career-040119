@@ -56,7 +56,9 @@ def merge_data(keys,data)
     array.each do |key,value|
       keys.each do |array1|
         array1.each do |key1,value1|
-          puts value1
+          if value1 == key
+            puts "hello"
+          end
         end
       end
     end
