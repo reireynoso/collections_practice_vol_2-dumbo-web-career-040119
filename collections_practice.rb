@@ -54,8 +54,10 @@ def merge_data(keys,data)
   hash = {}
   data.each do |array|
     array.each do |key,value|
-      keys.each do |key1,value1|
-        puts value1
+      keys.each do |array1|
+        array1.each do |key1,value1|
+          puts key1
+        end
       end
     end
   end
