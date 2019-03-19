@@ -64,12 +64,7 @@ def merge_data(keys,data)
       end
     end
   end
-  
-  keys.each do |array1|
-    array1.each do |key,value|
-      arr1 << value
-    end
-  end
+  arr1 << keys
   puts arr
   puts arr1
 end
