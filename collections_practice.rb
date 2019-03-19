@@ -62,7 +62,9 @@ end
 def find_cool(array)
   array.each do |arr|
     arr.each do |key,value|
-      if value == 
+      if value == "cool"
+        puts key
+      end
     end
   end
 end
