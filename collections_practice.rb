@@ -60,7 +60,9 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  puts array
+  array.each do |arr|
+    puts arr
+  end
 end
 
 def organize_schools
