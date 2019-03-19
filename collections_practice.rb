@@ -67,7 +67,7 @@ def merge_data(keys,data)
   
   keys.each do |array1|
     array1.each do |key,value|
-      ar
+      arr1 << value
     end
   end
   puts arr
