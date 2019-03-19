@@ -53,7 +53,7 @@ def merge_data(keys,data)
   #puts data
   k = keys
   d = data
-  puts d.values
+  
   d[0].values.map.with_index do |value,index|
     k[index].merge(value)
   end
