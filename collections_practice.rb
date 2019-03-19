@@ -70,6 +70,7 @@ def find_cool(array)
       end
     end
   end
+  return empty_arr
 end
 
 def organize_schools
