@@ -39,9 +39,8 @@ end
 
 def count_elements(array)
   arr = []
-  counts = {}
-  puts array
-  puts array.group_by(&:itself)
+  #puts array
+  #puts array.group_by(&:itself)
   array.group_by(&:itself).collect do |key,value|
     key[:count] = value.length
     arr << key
