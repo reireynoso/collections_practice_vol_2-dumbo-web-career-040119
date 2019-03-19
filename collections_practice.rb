@@ -46,7 +46,7 @@ def count_elements(array)
     key[:count] = value.length
     arr << key
   end
-  puts arr
+  return arr
 end
 
 def merge_data(keys,data)
