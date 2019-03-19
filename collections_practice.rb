@@ -1,4 +1,4 @@
-require "Pry"
+require "pry"
 # your code goes here
 def begins_with_r(collection)
   collection.each do |names|
