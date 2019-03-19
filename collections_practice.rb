@@ -52,7 +52,9 @@ def merge_data(keys,data)
   puts keys
   puts data 
   arr = []
+  arr1 =[]
   data.each do |array|
+    arr1 << array
     array.each do |key,value|
       keys.each do |array1|
         array1.each do |key1,value1|
