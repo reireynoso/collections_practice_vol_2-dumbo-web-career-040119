@@ -40,12 +40,13 @@ end
 def count_elements(array)
   #puts array.length
   existing_names = []
+  counts = {}
   array.each do |elements|
     #elements[:count] = 0
     #puts elements[:count]
     #puts elements[:name]
     elements.each do |key,val|
-      puts val
+       counts[val] += 1
     end
     #if existing_names.length == 0
       #elements[:count] += 1
@@ -67,7 +68,7 @@ def count_elements(array)
     #end
     
   end
-  puts existing_names
+  puts counts
 end
 
 def merge_data(keys,data)
