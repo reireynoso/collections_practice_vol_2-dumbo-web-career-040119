@@ -41,6 +41,7 @@ def count_elements(array)
   #puts array.length
   existing_names = []
   counts = {}
+  puts array
   puts array.group_by(&:itself)
  
 end
