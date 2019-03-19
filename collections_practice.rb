@@ -62,10 +62,11 @@ end
 
 def find_cool(array)
   #puts cool
+  empty_arr = []
   array.each do |arr|
     arr.each do |key,value|
       if value == "cool"
-        puts arr
+        empty_arr << arr
       end
     end
   end
