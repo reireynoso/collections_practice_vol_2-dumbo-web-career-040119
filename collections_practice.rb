@@ -51,6 +51,8 @@ end
 def merge_data(keys,data)
   puts keys
   puts data 
+  hash = {}
+  
 end
 
 def find_cool
