@@ -41,9 +41,8 @@ def count_elements(array)
   #puts array.length
   existing_names = []
   counts = {}
-  array.group_by(&:itself).collect do |key,value|
-    puts value
-  end
+  array = array.group_by(&:itself)
+  puts array
 end
 
 def merge_data(keys,data)
