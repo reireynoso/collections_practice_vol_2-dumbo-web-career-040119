@@ -80,6 +80,8 @@ def organize_schools(schools)
     value.each do |location,city|
       if organize.has_key?(city) == false
         organize[city] = [key]
+      else
+        
       end
     end
   end
