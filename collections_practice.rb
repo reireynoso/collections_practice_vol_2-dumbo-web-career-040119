@@ -85,5 +85,5 @@ def organize_schools(schools)
       end
     end
   end
-  puts organize
+  return organize
 end
