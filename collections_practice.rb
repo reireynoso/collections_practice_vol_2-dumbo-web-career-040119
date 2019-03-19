@@ -78,7 +78,7 @@ def organize_schools(schools)
   organize = {}
   schools.each do |key,value|
     value.each do |location,city|
-      
+      if organize
       organize[city] = [key]
     end
   end
