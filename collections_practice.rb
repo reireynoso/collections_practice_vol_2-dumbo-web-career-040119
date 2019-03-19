@@ -64,7 +64,6 @@ def merge_data(keys,data)
       end
     end
   end
-  arr1 << keys
   puts arr
   puts arr1
 end
