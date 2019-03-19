@@ -74,9 +74,9 @@ def find_cool(array)
 end
 
 def organize_schools(schools)
-  #puts schools
+  puts schools
   organize = {}
   schools.each do |key,value|
-    puts value
+    
   end
 end
