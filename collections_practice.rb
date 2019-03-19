@@ -38,6 +38,7 @@ def remove_non_strings(collection)
 end
 
 def count_elements(array)
+  arr = []
   counts = {}
   puts array
   puts array.group_by(&:itself)
