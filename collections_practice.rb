@@ -57,7 +57,7 @@ def merge_data(keys,data)
   v1 = data 
   v2 = keys
   d[0].values.map.with_index do |value,index|
-    k[i].merge(value)
+    k[index].merge(value)
   end
 end
 
