@@ -43,7 +43,7 @@ def count_elements(array)
   puts array
   puts array.group_by(&:itself)
   array.group_by(&:itself).collect do |key,value|
-    arr << key[:count]
+    arr << key[:count] = value.length
   end
   puts arr
 end
